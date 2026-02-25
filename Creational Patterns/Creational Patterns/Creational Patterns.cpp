@@ -8,37 +8,49 @@ class Character
 public:
     virtual string getType() = 0;
     virtual void attack() = 0;
+    virtual int getHealth() = 0;
 };
 
 class Warrior : public Character 
 {
 public:
-    string getType() override { return "Воин"; }
+    string getType() override { return "Воин с здоровьем "; }
+    int getHealth() override { return 100; }
     void attack() override { cout << "Воин атакует мечом!" << endl; }
 };
 
 class Mage : public Character
 {
 public:
-    string getType() override { return "Маг"; }
+    string getType() override { return "Маг с здоровьем "; }
+    int getHealth() override { return 50; }
     void attack() override { cout << "Маг кастует огненный шар!" << endl; }
 };
 
 class Archer : public Character
 {
 public:
-    string getType() override { return "Лучник"; }
+    string getType() override { return "Лучник с здоровьем "; }
+    int getHealth() override { return 70; }
     void attack() override { cout << "Лучник стреляет из лука!" << endl; }
 };
 
+class Knight : public Character
+{
+public:
+    string getType() override { return "Рыцарь с здоровьем "; }
+    int getHealth() override { return 80; }
+    void attack() override { cout << "Рыцарь атакует копьем!" << endl; }
+};
 class CharacterFactory
 {
 public:
     virtual Character* createCharacter() = 0;
+    
     void spawnAndAttack()
     {
         Character* chara = createCharacter();
-        cout << "Создан " << chara->getType() << ". ";
+        cout << "Создан " << chara->getType() << chara->getHealth() << ". ";
         chara->attack();
         delete chara;
     }
@@ -62,6 +74,11 @@ public:
     Character* createCharacter() override { return new Archer(); }
 };
 
+class KnightFactory : public CharacterFactory
+{
+public:
+    Character* createCharacter() override { return new Knight(); }
+};
 int main()
 {
     setlocale(LC_ALL, "ru");
@@ -75,6 +92,9 @@ int main()
     factory->spawnAndAttack();
 
     factory = new ArcherFactory();
+    factory->spawnAndAttack();
+
+    factory = new KnightFactory();
     factory->spawnAndAttack();
 
     delete factory;
