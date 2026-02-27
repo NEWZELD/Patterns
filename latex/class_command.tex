@@ -1,0 +1,61 @@
+\doxysection{Command}
+\hypertarget{class_command}{}\label{class_command}\index{Command@{Command}}
+
+
+Абстрактный класс команды  
+
+
+Граф наследования:\+Command:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_command}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \doxymbox{\hyperlink{class_command_ad202bdf85b060603989ff7dcb1be7072}{execute}} ()=0
+\begin{DoxyCompactList}\small\item\em brief Выполнение команды \end{DoxyCompactList}\item 
+virtual void \doxymbox{\hyperlink{class_command_a258c2c82bf97a966aed88f53a837ed6c}{undo}} ()=0
+\begin{DoxyCompactList}\small\item\em brief Отмена команды \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Абстрактный класс команды 
+
+\label{doc-func-members}
+\Hypertarget{class_command_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_command_ad202bdf85b060603989ff7dcb1be7072}\index{Command@{Command}!execute@{execute}}
+\index{execute@{execute}!Command@{Command}}
+\doxysubsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily \label{class_command_ad202bdf85b060603989ff7dcb1be7072} 
+virtual void execute (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+brief Выполнение команды 
+
+
+
+Замещается в \doxymbox{\hyperlink{class_launch_browser_command_afd7fbe0e53b2c4fa2f9017305df2fe39}{Launch\+Browser\+Command}}, \doxymbox{\hyperlink{class_open_file_command_afd7fbe0e53b2c4fa2f9017305df2fe39}{Open\+File\+Command}} и \doxymbox{\hyperlink{class_shutdown_command_afd7fbe0e53b2c4fa2f9017305df2fe39}{Shutdown\+Command}}.
+
+\Hypertarget{class_command_a258c2c82bf97a966aed88f53a837ed6c}\index{Command@{Command}!undo@{undo}}
+\index{undo@{undo}!Command@{Command}}
+\doxysubsubsection{\texorpdfstring{undo()}{undo()}}
+{\footnotesize\ttfamily \label{class_command_a258c2c82bf97a966aed88f53a837ed6c} 
+virtual void undo (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+brief Отмена команды 
+
+
+
+Замещается в \doxymbox{\hyperlink{class_launch_browser_command_a19e8778088bfe76b16745470981bb913}{Launch\+Browser\+Command}}, \doxymbox{\hyperlink{class_open_file_command_a19e8778088bfe76b16745470981bb913}{Open\+File\+Command}} и \doxymbox{\hyperlink{class_shutdown_command_a19e8778088bfe76b16745470981bb913}{Shutdown\+Command}}.
+
+
+
+Объявления и описания членов класса находятся в файле:\+\begin{DoxyCompactItemize}
+\item 
+Behavioral Patterns/\+\+Behavioral Patterns/\+\doxymbox{\hyperlink{_behavioral_01_patterns_8cpp}{Behavioral Patterns.\+cpp}}\end{DoxyCompactItemize}
