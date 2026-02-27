@@ -144,26 +144,31 @@ int main()
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
 
+    /// Эспрессо с молоком, сахаром и сиропом
     Beverage* drink = new Espresso();
     drink = new Milk(drink);
     drink = new Sugar(drink);
     drink = new Syrup(drink);
     cout << drink->getDescription() << " стоит $" << drink->cost() << endl;
 
+    /// Эспрессо с молоком, сахаром и шоколадом
     Beverage* drink2 = new Espresso();
     drink2 = new Milk(drink2);
     drink2 = new Sugar(drink2);
     drink2 = new Chocolate(drink2);
     cout << drink2->getDescription() << " стоит $" << drink2->cost() << endl;
 
+    /// Стоимость еспрессо
     Beverage* simpleDrink = new Espresso();
     cout << simpleDrink->getDescription() << " стоит $" << simpleDrink->cost() << endl;
 
+    /// Чай с молоком и сахаром
     Beverage* drink3 = new Tea();
     drink3 = new Milk(drink3);
     drink3 = new Syrup(drink3);
     cout << drink3->getDescription() << " стоит $" << drink3->cost() << endl;
 
+    /// Стоимость чая
     Beverage* simpleDrink1 = new Tea();
     cout << simpleDrink1->getDescription() << " стоит $" << simpleDrink1->cost() << endl;
 
