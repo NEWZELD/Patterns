@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\klg\\Desktop\\Patterns\\Behavioral Patterns\\Behavioral Patterns\\",
+  "WorkspaceRootPath": "C:\\Users\\klg\\Documents\\GitHub\\Patterns\\Behavioral Patterns\\Behavioral Patterns\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4946093A-E0D6-458D-9A32-8E40A147BF13}|Behavioral Patterns.vcxproj|C:\\Users\\klg\\Desktop\\Patterns\\Behavioral Patterns\\Behavioral Patterns\\Behavioral Patterns.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{4946093A-E0D6-458D-9A32-8E40A147BF13}|Behavioral Patterns.vcxproj|C:\\Users\\klg\\Documents\\GitHub\\Patterns\\Behavioral Patterns\\Behavioral Patterns\\Behavioral Patterns.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4946093A-E0D6-458D-9A32-8E40A147BF13}|Behavioral Patterns.vcxproj|solutionrelative:Behavioral Patterns.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Behavioral Patterns.cpp",
-              "DocumentMoniker": "C:\\Users\\klg\\Desktop\\Patterns\\Behavioral Patterns\\Behavioral Patterns\\Behavioral Patterns.cpp",
+              "DocumentMoniker": "C:\\Users\\klg\\Documents\\GitHub\\Patterns\\Behavioral Patterns\\Behavioral Patterns\\Behavioral Patterns.cpp",
               "RelativeDocumentMoniker": "Behavioral Patterns.cpp",
-              "ToolTip": "C:\\Users\\klg\\Desktop\\Patterns\\Behavioral Patterns\\Behavioral Patterns\\Behavioral Patterns.cpp",
+              "ToolTip": "C:\\Users\\klg\\Documents\\GitHub\\Patterns\\Behavioral Patterns\\Behavioral Patterns\\Behavioral Patterns.cpp",
               "RelativeToolTip": "Behavioral Patterns.cpp",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAIwFEAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAAMsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-25T13:49:01.228Z",
               "EditorCaption": ""
